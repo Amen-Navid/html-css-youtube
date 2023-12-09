@@ -4,7 +4,6 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    /* overflow-x: hidden; */
 }
 
 
@@ -371,6 +370,7 @@ footer a:hover {
     .header {
         width: 133%;
         margin-top:-5px;
+        padding-bottom:-2px;
     }
 
     video {
