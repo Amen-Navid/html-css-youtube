@@ -19,7 +19,7 @@ header {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: white;
 }
 
 #hamburgar {
