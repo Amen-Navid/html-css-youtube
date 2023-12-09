@@ -19,7 +19,7 @@ header {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: transparent;
 }
 
 #hamburgar {
@@ -110,11 +110,6 @@ header {
     text-decoration: none;
     display: none;
 }
-
-/* .right-nav a:hover {
-    color: #ff0000;
-    border-bottom: 2px solid #ff0000;
-} */
 
 .dropdown-content a:hover {
     background-color: #ff0000;
@@ -313,11 +308,6 @@ footer a:hover {
 
 
 @media (max-width: 817px) {
-
-    /* body{
-        overflow-x: hidden;
-    } */
-
     .noti,
     #hamburgar {
         display: inline-flex;
@@ -325,7 +315,6 @@ footer a:hover {
 
     .dropdown-content a {
         color: black;
-        /* padding: 10px 16px; */
         text-decoration: none;
         font-size: smaller;
         display: block;
@@ -355,9 +344,6 @@ footer a:hover {
 }
 
 @media (max-width: 674px) {
-    /* body {
-        overflow-x: hidden;
-    } */
 
     #hamburgar {
         padding-bottom: 10px;
@@ -384,6 +370,7 @@ footer a:hover {
 
     .header {
         width: 133%;
+        margin-top:5px;
     }
 
     video {
